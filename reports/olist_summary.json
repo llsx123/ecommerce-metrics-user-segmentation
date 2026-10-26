@@ -1,0 +1,105 @@
+{
+  "dataset": {
+    "source": "Kaggle Brazilian E-Commerce Public Dataset by Olist",
+    "snapshot": "2018-10-17 17:30:18",
+    "date_range": [
+      "2016-09-04 21:15:19",
+      "2018-10-17 17:30:18"
+    ],
+    "raw_orders": 99441,
+    "raw_order_items": 112650,
+    "raw_payments": 103886,
+    "unique_customers": 96096,
+    "categories": 74
+  },
+  "data_quality": {
+    "duplicate_orders": 0,
+    "duplicate_order_items": 0,
+    "null_customer": 0,
+    "orphan_customer": 0,
+    "orphan_product_rows": 0,
+    "negative_price_rows": 0,
+    "orders_without_payment": 1,
+    "payment_mismatch_orders": 381,
+    "future_dated_orders": 0
+  },
+  "metrics": {
+    "gross_gmv": 15664031.8,
+    "paid_orders": 97822,
+    "paid_users": 94632,
+    "repeat_users": 2866,
+    "repeat_rate": 0.0303,
+    "aov": 160.13,
+    "arpu": 165.53,
+    "quarantined_orders": 382,
+    "quarantine_share": 0.0038,
+    "raw_orders": 99441,
+    "raw_order_items": 112650
+  },
+  "top_categories": [
+    {
+      "category": "health_beauty",
+      "gmv": 1253010.38
+    },
+    {
+      "category": "watches_gifts",
+      "gmv": 1197731.21
+    },
+    {
+      "category": "bed_bath_table",
+      "gmv": 1027375.11
+    },
+    {
+      "category": "sports_leisure",
+      "gmv": 977594.32
+    },
+    {
+      "category": "computers_accessories",
+      "gmv": 901216.37
+    }
+  ],
+  "segments": [
+    {
+      "segment": "new_promising",
+      "users": 37966,
+      "gmv": 6390515.15,
+      "user_share": 0.4012
+    },
+    {
+      "segment": "need_attention",
+      "users": 18883,
+      "gmv": 2946488.36,
+      "user_share": 0.1995
+    },
+    {
+      "segment": "lost",
+      "users": 18796,
+      "gmv": 3070538.74,
+      "user_share": 0.1986
+    },
+    {
+      "segment": "hibernating",
+      "users": 18754,
+      "gmv": 3141110.97,
+      "user_share": 0.1982
+    },
+    {
+      "segment": "loyal",
+      "users": 133,
+      "gmv": 63371.06,
+      "user_share": 0.0014
+    },
+    {
+      "segment": "at_risk",
+      "users": 67,
+      "gmv": 28028.18,
+      "user_share": 0.0007
+    },
+    {
+      "segment": "champions",
+      "users": 33,
+      "gmv": 23979.34,
+      "user_share": 0.0003
+    }
+  ]
+}
